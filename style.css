@@ -1,3 +1,10 @@
-body {
+/* body {
     background-color: plum;
+} */
+
+#presentacion {
+    height: 88vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
