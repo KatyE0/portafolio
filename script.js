@@ -30,3 +30,9 @@ typewriter2
     .typeString('....Por lo tanto, lo que debemos hacer es esforzarnos, perseverar y NUNCA RENDIRNOS')
     .pauseFor(1000)
     .start();
+
+window.addEventListener("scroll", function () {
+    var menupegajoso = document.querySelector(".menupegajoso");
+    menupegajoso.classList.toggle("abajo", window.scrollY > 0);
+
+})

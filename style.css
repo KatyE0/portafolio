@@ -18,6 +18,25 @@ colres
     font-style: normal;
 }
 
+.menupegajoso {
+    transition: 0.5s;
+}
+
+.menupegajoso.abajo {
+    background: rgb(60 60 60) !important;
+}
+.menu-btn {
+    color: aliceblue;
+    /* transition: all ease .5s; */
+
+}
+.menu-btn:hover {
+    transition: all ease .5s;
+    color: white;
+    background-color: rgb(40, 40, 40);
+}
+
+
 #presentacion {
     /* height: 85vh; */
     position: relative;
@@ -34,7 +53,12 @@ video {
 }
 
 
-
+.text-efecto {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+  }
 
 #descripcion {
     height: 95vh;
@@ -74,4 +98,19 @@ video {
 .proyecto-link {
     text-decoration: none;
     color: black;
+}
+
+.btn-up {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: rgb(60 60 60);
+    color: #ffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
 }
