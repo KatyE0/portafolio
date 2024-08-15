@@ -1,4 +1,5 @@
-// alert("Hola mundo :D");
+// js para texto con efecto de escritura
+
 let app = document.getElementById('app');
 
 let typewriter = new Typewriter(app, {
@@ -7,7 +8,7 @@ let typewriter = new Typewriter(app, {
 });
 
 typewriter
-    .pauseFor(2500) // milisegundos 2.5 segundos
+    .pauseFor(2500)
     .typeString('Karina Escalante')
     .pauseFor(300)
     .deleteAll()
@@ -23,7 +24,7 @@ let typewriter2 = new Typewriter(frase, {
 });
 
 typewriter2
-    .pauseFor(2500) // milisegundos 2.5 segundos
+    .pauseFor(2500)
     .typeString('"Cada línea de código es una oportunidad para innovar y mejorar."')
     .pauseFor(300)
     .deleteAll()
@@ -31,8 +32,31 @@ typewriter2
     .pauseFor(1000)
     .start();
 
-window.addEventListener("scroll", function () {
-    var menupegajoso = document.querySelector(".menupegajoso");
-    menupegajoso.classList.toggle("abajo", window.scrollY > 0);
+// js para animaciones de scroll
 
+window.addEventListener("scroll", function () {
+    let menupegajoso = document.querySelector(".menupegajoso");
+    menupegajoso.classList.toggle("abajo", window.scrollY > 0);
+    // menupegajoso.classList.toggle("fixed-top", window.scrollY >= 0);
 })
+
+window.addEventListener("scroll", function () {
+    let btn_up = document.querySelector(".btn-up");
+    btn_up.classList.toggle("abajo", window.scrollY > 0);
+})
+
+
+// window.addEventListener("scroll", function () {
+//     let animacion = document.querySelectorAll(".animado");
+//     let scrollTop = document.documentElement.scrollTop;
+//     for (var i = 0; i < animacion.length; i++) {
+//         let alturaAnimado = animacion[i].offsetTop;
+//         if ((alturaAnimado) < scrollTop) {
+//             // animacion[i].style.opacity = 1;
+//             animacion[i].classList.add("mostrarDerecha");
+//         }
+//     }
+
+// } )
+
+
