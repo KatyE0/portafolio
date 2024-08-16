@@ -10,7 +10,7 @@ La pagina es responsiva (adaptable a diferentes tamaños de pantalla) e incluye 
 
 ## Secciones de mi sitio
 
-![Presentación](assets/readme\presentacion.png)
+![Presentación](assets/readme/presentacion.png)
 
 ![Habilidades](assets/readme/habilidades.png)
 
