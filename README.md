@@ -30,4 +30,4 @@ La pagina es responsiva (adaptable a diferentes tamaños de pantalla) e incluye 
 
 
 ---
-Desarrollado con 🤍 por [Karina Escalante](http://www.linkedin.com/in/karina-escalante-olmos-2666a2321) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)
+Desarrollado con 🤍 por [Karina Escalante](https://www.instagram.com/kary_olmos_22?igsh=aHI4c2hubzB3NXEx) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)
